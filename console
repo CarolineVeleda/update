@@ -1,0 +1,63 @@
+firebase.auth
+function (r){return void 0===r&&(r=t()),"function"!=typeof r[e]&&o("invalid-app-argument",{name:e}),r[e]()}
+firebase.auth()
+vs {l: false, app: e, c: mr, N: Array[0], m: Array[2]…}A: Array[0]Eb: vsFa: undefinedFb: ZG: isGa: ()Gb: ()Hb: ()I: Array[1]INTERNAL: ObjectN: Array[0]R: "aAILkdmh7kQEA7y0Tg61a8E4oGI2"Ra: nullU: ZV: nullW: truea: Goapp: ec: mrcurrentUser: kaA: Array[0]Eb: kaFa: undefinedG: "AIzaSyCPFl-j_EhN5DwvDfUKWsdTkSf1Xeugd4g"I: trueN: Array[1]R: Array[0]Ra: nullU: ()V: vsW: vs_lat: "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzOTkwOGFmNGRmN2Q3ZmY3YzQ1YmU2NWI4OTFkYzc0N2FmMGJjNWEifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdHJpcGEtZDlhNjciLCJuYW1lIjoiRGFyayBDYXJvbCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLVhkVUlxZE1rQ1dBL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBLzQyNTJyc2NidjVNL3Bob3RvLmpwZyIsImF1ZCI6InRyaXBhLWQ5YTY3IiwiYXV0aF90aW1lIjoxNTExMjAxMDIwLCJ1c2VyX2lkIjoiYUFJTGtkbWg3a1FFQTd5MFRnNjFhOEU0b0dJMiIsInN1YiI6ImFBSUxrZG1oN2tRRUE3eTBUZzYxYThFNG9HSTIiLCJpYXQiOjE1MTEyMDEwMjEsImV4cCI6MTUxMTIwNDYyMSwiZW1haWwiOiJjYXJvbGluZXZlbGVkYTIwMDFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTQ5NTExMzI5MTY1MDQ5MzgwNjkiXSwiZW1haWwiOlsiY2Fyb2xpbmV2ZWxlZGEyMDAxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.J276glWgnKkC6Dp_KxpI_wtdvx5qpPsjplWp3MWH5EE0e1CXR_9Nn16X0rFv_SCJFY_U9FQwgcfwLyL_jSX_NpOVmrdOSvRkQe5GoO56PEpTocIvi-2ZOwttzeXdF7r2jm04W9jl_Q_S0ZoboFkLAz9m4atwE134y8hUny4IRqA3sKbAt3sPsyk1ch8-W8P5OuhqfrQO83Jd9FWOiZ1-QyjwYZySYd6ci9CcpBuBBwPJXi4PsOcA1UDAeoZwz2hwQ2u3vs2n07TMcZuXg7IiLHYQMxNFGzTd3mxaM1HY2s4BFgIC1p3V2AEfGpbvH0bt1u5q56uCvWnZvTr9ZGnJSA"a: Goc: mrca: isdisplayName: "Dark Carol"email: "carolineveleda2001@gmail.com"emailVerified: trueh: vaha: nulli: nullisAnonymous: falsel: fametadata: wao: "[DEFAULT]"oa: falsepa: "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzOTkwOGFmNGRmN2Q3ZmY3YzQ1YmU2NWI4OTFkYzc0N2FmMGJjNWEifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdHJpcGEtZDlhNjciLCJuYW1lIjoiRGFyayBDYXJvbCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLVhkVUlxZE1rQ1dBL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBLzQyNTJyc2NidjVNL3Bob3RvLmpwZyIsImF1ZCI6InRyaXBhLWQ5YTY3IiwiYXV0aF90aW1lIjoxNTExMjAxMDIwLCJ1c2VyX2lkIjoiYUFJTGtkbWg3a1FFQTd5MFRnNjFhOEU0b0dJMiIsInN1YiI6ImFBSUxrZG1oN2tRRUE3eTBUZzYxYThFNG9HSTIiLCJpYXQiOjE1MTEyMDEwMjEsImV4cCI6MTUxMTIwNDYyMSwiZW1haWwiOiJjYXJvbGluZXZlbGVkYTIwMDFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTQ5NTExMzI5MTY1MDQ5MzgwNjkiXSwiZW1haWwiOlsiY2Fyb2xpbmV2ZWxlZGEyMDAxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.J276glWgnKkC6Dp_KxpI_wtdvx5qpPsjplWp3MWH5EE0e1CXR_9Nn16X0rFv_SCJFY_U9FQwgcfwLyL_jSX_NpOVmrdOSvRkQe5GoO56PEpTocIvi-2ZOwttzeXdF7r2jm04W9jl_Q_S0ZoboFkLAz9m4atwE134y8hUny4IRqA3sKbAt3sPsyk1ch8-W8P5OuhqfrQO83Jd9FWOiZ1-QyjwYZySYd6ci9CcpBuBBwPJXi4PsOcA1UDAeoZwz2hwQ2u3vs2n07TMcZuXg7IiLHYQMxNFGzTd3mxaM1HY2s4BFgIC1p3V2AEfGpbvH0bt1u5q56uCvWnZvTr9ZGnJSA"phoneNumber: nullphotoURL: "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg"providerData: Array[1]qa: (t)ra: (t)refreshToken: "APWA_ko6Qx3JZT82uXyWGy1n2O4jWOWt_0iy-SyT5ZZwVf7k5FddUHUG4zdHClTJyvwKgbYO6fXBYTlQ20m3zsmLWFWC5T9z-3bye3k_wOobh4yC8T6LedYZJI0-l5AUJSFD-L7EktLgPoyPwoTD-_GnL9E5Ym6I4J4DQyseYB5e7ru_Tk9tcYS1rqVqSrgUGCfW4745O85KwOTS6IXJkgaCm1mLF_XD3ZgPMBFxxIOj-IbLxop7VEg7UN0eefe1TM-r9_8yAXAYRDnooFZ-lK27q4oHanrEwRjUQvDzoTXWID4sB8P_aMHj6RQIWAt-iu25NVfe9SHDzP-KmQPKekSA3cIjxIkC4CVo05MDZxiMPjiDvCwXDNI"u: ztuid: "aAILkdmh7kQEA7y0Tg61a8E4oGI2"w: "tripa-d9a67.firebaseapp.com"__proto__: fnh: asha: ()i: Zl: falselanguageCode: (...)lc: (...)m: Array[2]o: 1oa: falsepa: ()qa: ()ra: ()u: ztw: nullget lc: ()set lc: (t)__proto__: fn
+firebase.auth().currentUser
+kaA: Array[0]Eb: kaFa: undefinedG: "AIzaSyCPFl-j_EhN5DwvDfUKWsdTkSf1Xeugd4g"I: trueN: Array[1]R: Array[0]Ra: nullU: ()V: vsW: vs_lat: "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzOTkwOGFmNGRmN2Q3ZmY3YzQ1YmU2NWI4OTFkYzc0N2FmMGJjNWEifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdHJpcGEtZDlhNjciLCJuYW1lIjoiRGFyayBDYXJvbCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLVhkVUlxZE1rQ1dBL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBLzQyNTJyc2NidjVNL3Bob3RvLmpwZyIsImF1ZCI6InRyaXBhLWQ5YTY3IiwiYXV0aF90aW1lIjoxNTExMjAxMDIwLCJ1c2VyX2lkIjoiYUFJTGtkbWg3a1FFQTd5MFRnNjFhOEU0b0dJMiIsInN1YiI6ImFBSUxrZG1oN2tRRUE3eTBUZzYxYThFNG9HSTIiLCJpYXQiOjE1MTEyMDEwMjEsImV4cCI6MTUxMTIwNDYyMSwiZW1haWwiOiJjYXJvbGluZXZlbGVkYTIwMDFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTQ5NTExMzI5MTY1MDQ5MzgwNjkiXSwiZW1haWwiOlsiY2Fyb2xpbmV2ZWxlZGEyMDAxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.J276glWgnKkC6Dp_KxpI_wtdvx5qpPsjplWp3MWH5EE0e1CXR_9Nn16X0rFv_SCJFY_U9FQwgcfwLyL_jSX_NpOVmrdOSvRkQe5GoO56PEpTocIvi-2ZOwttzeXdF7r2jm04W9jl_Q_S0ZoboFkLAz9m4atwE134y8hUny4IRqA3sKbAt3sPsyk1ch8-W8P5OuhqfrQO83Jd9FWOiZ1-QyjwYZySYd6ci9CcpBuBBwPJXi4PsOcA1UDAeoZwz2hwQ2u3vs2n07TMcZuXg7IiLHYQMxNFGzTd3mxaM1HY2s4BFgIC1p3V2AEfGpbvH0bt1u5q56uCvWnZvTr9ZGnJSA"a: Goc: mrca: isdisplayName: "Dark Carol"email: "carolineveleda2001@gmail.com"emailVerified: trueh: vaha: nulli: nullisAnonymous: falsel: fametadata: wao: "[DEFAULT]"oa: falsepa: "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzOTkwOGFmNGRmN2Q3ZmY3YzQ1YmU2NWI4OTFkYzc0N2FmMGJjNWEifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdHJpcGEtZDlhNjciLCJuYW1lIjoiRGFyayBDYXJvbCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLVhkVUlxZE1rQ1dBL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBLzQyNTJyc2NidjVNL3Bob3RvLmpwZyIsImF1ZCI6InRyaXBhLWQ5YTY3IiwiYXV0aF90aW1lIjoxNTExMjAxMDIwLCJ1c2VyX2lkIjoiYUFJTGtkbWg3a1FFQTd5MFRnNjFhOEU0b0dJMiIsInN1YiI6ImFBSUxrZG1oN2tRRUE3eTBUZzYxYThFNG9HSTIiLCJpYXQiOjE1MTEyMDEwMjEsImV4cCI6MTUxMTIwNDYyMSwiZW1haWwiOiJjYXJvbGluZXZlbGVkYTIwMDFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTQ5NTExMzI5MTY1MDQ5MzgwNjkiXSwiZW1haWwiOlsiY2Fyb2xpbmV2ZWxlZGEyMDAxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.J276glWgnKkC6Dp_KxpI_wtdvx5qpPsjplWp3MWH5EE0e1CXR_9Nn16X0rFv_SCJFY_U9FQwgcfwLyL_jSX_NpOVmrdOSvRkQe5GoO56PEpTocIvi-2ZOwttzeXdF7r2jm04W9jl_Q_S0ZoboFkLAz9m4atwE134y8hUny4IRqA3sKbAt3sPsyk1ch8-W8P5OuhqfrQO83Jd9FWOiZ1-QyjwYZySYd6ci9CcpBuBBwPJXi4PsOcA1UDAeoZwz2hwQ2u3vs2n07TMcZuXg7IiLHYQMxNFGzTd3mxaM1HY2s4BFgIC1p3V2AEfGpbvH0bt1u5q56uCvWnZvTr9ZGnJSA"phoneNumber: nullphotoURL: "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg"providerData: Array[1]qa: (t)ra: (t)refreshToken: "APWA_ko6Qx3JZT82uXyWGy1n2O4jWOWt_0iy-SyT5ZZwVf7k5FddUHUG4zdHClTJyvwKgbYO6fXBYTlQ20m3zsmLWFWC5T9z-3bye3k_wOobh4yC8T6LedYZJI0-l5AUJSFD-L7EktLgPoyPwoTD-_GnL9E5Ym6I4J4DQyseYB5e7ru_Tk9tcYS1rqVqSrgUGCfW4745O85KwOTS6IXJkgaCm1mLF_XD3ZgPMBFxxIOj-IbLxop7VEg7UN0eefe1TM-r9_8yAXAYRDnooFZ-lK27q4oHanrEwRjUQvDzoTXWID4sB8P_aMHj6RQIWAt-iu25NVfe9SHDzP-KmQPKekSA3cIjxIkC4CVo05MDZxiMPjiDvCwXDNI"u: ztuid: "aAILkdmh7kQEA7y0Tg61a8E4oGI2"w: "tripa-d9a67.firebaseapp.com"__proto__: fn
+firebase.auth().currentUser.uid
+"aAILkdmh7kQEA7y0Tg61a8E4oGI2"
+id = firebase.auth().currentUser.uid
+"aAILkdmh7kQEA7y0Tg61a8E4oGI2"
+firebase.database().ref('/usuarios/' + id).set({xp: 5})
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
+ref = firebase.database().ref('/usuarios/787827837823')
+t {repo: e, path: e, Ae: e, De: false}
+ref.once('value', console.log)
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}__proto__: Promise[[PromiseStatus]]: "resolved"[[PromiseValue]]: e
+Query.js:244 e {_e: e, ge: t, me: t}_e: ege: tkey: "787827837823"me: tref: (...)__proto__: Object
+ref.once('value', function(dados) { console.log(dados.val()); })
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
+VM462:1 null
+ref = firebase.database().ref('/usuarios/' + id)
+t {repo: e, path: e, Ae: e, De: false}
+ref.once('value', function(dados) { console.log(dados.val()); })
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
+VM469:1 Object {xp: 5}
+ref = firebase.database().ref('/usuarios/' + id)
+t {repo: e, path: e, Ae: e, De: false}
+ref.once('value',function(dados){ a=dados.val()})
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
+a
+Object {teste: "sdfsdf", xp: 5}
+a.xp
+5
+a.teste
+"sdfsdf"
+a.t
+undefined
+a.t = e5656546
+VM710:1 Uncaught ReferenceError: e5656546 is not defined
+    at <anonymous>:1:7
+(anonymous) @ VM710:1
+a.t = 5656546
+5656546
+ref.put(a)
+VM734:1 Uncaught TypeError: ref.put is not a function
+    at <anonymous>:1:5
+(anonymous) @ VM734:1
+ref.set(a)
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
+a.pontos = 1
+1
+ref.set(a)
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
+ref
+t {repo: e, path: e, Ae: e, De: false}
+ref=firebase.database().ref('/pins/')
+t {repo: e, path: e, Ae: e, De: false}
+ref.set({lugar : 1})
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
+ref.set({lugar : 9})
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
+ref.set(null)
+Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
