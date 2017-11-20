@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+    <link  rel="stylesheet" href="css/materialize.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+    <title>TripArt</title>
+</head>
+<body>
+ <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+<nav>
+    <div class="nav-wrapper  purple darken-3 col s12 m2">
+         <a href="index.html" class="brand-logo center" id="logo">TripArt</a>
+         <a href="#" data-activates="menu-mobile" class="button-collapse">
+             <i class="material-icons">menu</i>
+         </a>
+         <ul class="right hide-on-med-and-down">
+             <li><a href="progress.html">Progresso</a></li>
+                <li><a href="help.html">Ajuda</a></li>
+		
+		<li id="logado" style="display:none"> <img id="avatar" src="" alt="avatar" class="circle responsive-img" width="40" height="40">
+			<span id="nome"></span>
+			<a href="#" class="btn btn-danger">
+				<span class="fa fa-sign-out"></span>
+				Sair
+			</a></li>
+		
+		<li id="naologado"><a href="#" class="btn btn-social btn-google">
+				<span class="fa fa-google"></span>
+				Login com Google
+			</a></li>
+				
+       </ul>
+         <ul class="side-nav" id="menu-mobile">
+             <li><a href="progress.html">Progresso</a></li>
+                <li><a href="help.html">Ajuda</a></li>
+				
+         </ul>
+		
+     </div>
+	
+ </nav>
+<script>
+ $(function(){
+     $(".button-collapse").sideNav();
+ });
+ </script>
+ <div id="map" class="z-depth-3"></div>        
+    <div id="data">
+        <p style="color:black" class="center-align">Rio Grande, RS - Brasil</p>
+        <p id="pins" class="center-align " id="level" style="color:black;">
+        </p>                
+        <div id="progressCircle" class="" style="color:black;"></div>
+        <div id="levelNumber" class="center-align">
+    </div>
+    </div>
+
+    <script src="js/map.js"></script>
+	
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfnYu_qE9i_KQhnmv94t47htCHVdNAROc&callback=initMap" async defer></script>
+    <script src="js/pin.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/progressEngine.js"></script>
+    <script src="vendor/progressbar.js/dist/progressbar.min.js"></script>
+    <script>
+        let bar = new ProgressBar.Circle(progressCircle, {
+            color: '#aaa',
+            strokeWidth: 4,
+            trailWidth: 1,
+            easing: 'easeInOut',
+            duration: 1400,
+            text: {
+                autoStyleContainer: false
+            },
+            from: { color: '#aaa', width: 1 },
+            to: { color: '#880e4f', width: 4 },
+            step: function (state, circle) {
+                circle.path.setAttribute('stroke', state.color);
+                circle.path.setAttribute('stroke-width', state.width);
+                
+                var value = User.percentage(); 
+                if (value === 0) {
+                    circle.setText('0%');
+                } else {
+                    circle.setText(value+"%");
+                }
+            }
+        });
+        updateBar();
+        bar.text.style.fontFamily = 'Quicksand', 'Helvetica', 'sans-serif';
+        bar.text.style.fontSize = '2rem';
+        bar.animate((User.percentage()/100));
+        //TODO: fazer a barra atualizar e.e 
+    </script>
+   
+<script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDoxf_LV-3EXhXvzRPyM4TDnU4CXK5KcmU",
+    authDomain: "meu-deus-530a3.firebaseapp.com",
+    databaseURL: "https://meu-deus-530a3.firebaseio.com",
+    projectId: "meu-deus-530a3",
+    storageBucket: "",
+    messagingSenderId: "30678343456"
+  };
+  firebase.initializeApp(config);
+</script>
+  <script src="js/login.js"></script>
+    <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/materialize/js/materialize.min.js"></script>
+
+</body>
+</html>
